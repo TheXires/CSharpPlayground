@@ -1,4 +1,4 @@
-using System;
+﻿using PlayGround;
 
 class Program
 {
@@ -28,6 +28,12 @@ class Program
     {
       Console.WriteLine($"Second array at position {item.i} contains {item.value.Length} items.");
     }
+
+    Console.WriteLine();
+    Console.WriteLine("# Initialize class and struct");
+
+    MyClass myClass = new MyClass();
+    MyStruct myStruct = new MyStruct();
 
     Console.WriteLine();
     Console.WriteLine("Press any key to close application.");
